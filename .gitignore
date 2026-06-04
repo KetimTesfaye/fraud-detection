@@ -1,0 +1,22 @@
+# Data Guardrails (Never commit raw financial files or processed data maps)
+data/
+data/raw/
+data/processed/
+
+# Production Model Storage (Ignore heavy binary artifacts)
+models/*.pkl
+models/*.json
+models/*.h5
+
+# Python Virtual Environments & Interpreter Caches
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Operating System Traces
+.DS_Store
+Thumbs.db
