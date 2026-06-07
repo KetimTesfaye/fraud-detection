@@ -9,7 +9,7 @@ Alternative Rejected: Random Undersampling was skipped because it would discard 
 
  Task 2: Model Performance & Selection
 
-Models were evaluated side-by-side using F1-Score and **AUC-PR (Area Under Precision-Recall), backed by a Stratified 5-Fold Cross-Validation loop.
+Models were evaluated side-by-side using F1-Score and AUC-PR (Area Under Precision-Recall), backed by a Stratified 5-Fold Cross-Validation loop.
 
 E-Commerce Winner: Tuned LightGBM (F1: `0.8023` | AUC-PR: `0.8195` | Variance: `±0.0018`)
 Bank Credit Card Winner: Tuned LightGBM + SMOTE (F1: `0.8872` | AUC-PR: `0.8951` | Variance: `±0.0012`)
